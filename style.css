@@ -1,0 +1,42 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .main{
+    height: 100%;
+    width: 100%;
+     background-color: #222;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .checker{
+        border: #ffffff solid 20px;
+        display: inline-block;
+        background-color: black;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        }
+        input[type="password"],
+        [type="text"]{
+            width: 250px;
+            height: 35px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        #hidebutton{
+            height: 50px;
+            width: 50px;
+        }
+        #checkbtn{
+            width: 65px;
+            height: 40px;
+            background-color: blue;
+            color: #ffffff;
+        }
